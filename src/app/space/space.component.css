@@ -1,0 +1,31 @@
+.Dacls{
+    padding: 24px;
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 14px;
+    margin: -2px 0px 8px 0px;
+}
+.inf{
+    margin: 0;
+    font-size: 15px;
+    /* padding: 7px; */
+}
+.BTN{
+    margin: 3px 11px 6px 13px;
+    background-color:#c3e1a3;
+    color: black;
+}
+.selectedBtn{
+    background-color: chartreuse;
+}
+
+.title {
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+
+@media only screen and (min-width: 300px) and (max-width:700px){
+    .BTN{
+        width:40%;
+    }
+}
